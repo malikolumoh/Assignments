@@ -1,0 +1,73 @@
+html, body {
+    height: auto;
+    width: auto;
+  }
+  h1 {
+    font-size: 70px;
+    margin-top: auto;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: auto;
+  }
+  li {
+    font-size: 25px;
+    color: rgb(122, 122, 122);
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: black;
+    font-size: 35px;
+  }
+  ul li:hover {
+    background-color: rgb(219, 218, 218);
+  }
+  section {
+    float: left;
+  }
+  h2 {
+    font-size: 35px;
+    margin: 0px;
+  }
+  p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+    color: rgb(122, 122, 122);
+  }
+  #about {
+    margin-top: 50px;
+  }
+  .picture {
+    text-align: center;
+  }
+  #services {
+    margin-top: 50px;
+  }
+  #projects {
+    margin-top: 50px;
+  }
+  #contact {
+    margin-top: 50px;
+  }
+  .contacthead {
+    display: flex;
+    justify-content: center;
+  }
+  a {
+    text-decoration: none;
+  }
+  #footertext{
+    margin-top: 50px;
+    text-align: center;
+  }
